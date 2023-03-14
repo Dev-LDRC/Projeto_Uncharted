@@ -13,6 +13,7 @@ body {
 
 header {
      background-image: url("./recursos/simbolos_ps.png");
+     pointer-events: none;
 }
 
 input{
@@ -46,6 +47,7 @@ footer {
      border-radius: 8px;
      border-color: white;
      border-style: solid;
+     pointer-events: none;
 }
 
 #bio_title {
