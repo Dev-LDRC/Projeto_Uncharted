@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Uncharted Library</title>
+     
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <header>
+          <div id="conteiner_logo_inicial">
+               <img id="logo_inicial" src="./recursos/Uncharted_4_logo (1).png" alt="">
+               <h3 id="bio_title">BIOGRAFIAS</h3>
+          </div>
+     </header>
+     
+     <hr style="border-color: #0C1824">
+
+     <nav>
+          <div id="conteiner_navegacao">
+               <input type="button" onclick="bio_nathan()" value="Nathan Drake" class="botao_personagem">
+               <input type="button" onclick="bio_elena()" value="Elena Fisher" class="botao_personagem">
+               <input type="button" onclick="bio_samuel()" value="Samuel Drake" class="botao_personagem">
+               <input type="button" onclick="bio_victor()" value="Victor Sullivan" class="botao_personagem">
+          </div>
+     </nav>
+
+     <main>
+
+          <div id="conteiner_personagens">
+               <div class="view_conteiner" id="nathan"><img class="personagem" src="./recursos/nathan_image.png" alt=""></div>
+               <div class="view_conteiner" id="elena"><img class="personagem" src="./recursos/elena_image.png" alt=""></div>
+               <div class="view_conteiner" id="samuel"><img class="personagem" src="./recursos/samuel_image.png" alt=""></div>
+               <div class="view_conteiner" id="victor"><img class="personagem" src="./recursos/sulivan_image.png" alt=""></div>
+          </div>
+
+          <div id="conteiner_bio_infos">
+               <img id="bio_personagem" src="" alt="">
+               <div id="texto_bio">CLIQUE EM UM DOS <u>BOTÕES</u> ACIMA DOS PERSONAGENS
+               </div>
+          </div>
+
+     </main>
+
+     <footer>
+
+          <br>
+          <div id="infos_etc">
+               <h2>CONTATOS</h2>
+               <div style="display:inline-flex; gap: 12px;">
+                    <a href="https://www.instagram.com/lucasdavid_ldr/"><img style="width: 30px; height: 30px;" src="./recursos/icons8-instagram-48.png" alt=""></a>
+                    <a href="https://github.com/LDRandy"><img style="width: 30px; height: 30px;" src="./recursos/icons8-github-48.png" alt=""></a>
+               </div>
+
+          </div>
+
+          <br>
+          <hr style="border-color: #0C1824">
+          <br>
+
+          <div id="direitos_autorais">
+               <p>© 2023 LDRandy. Todos os direitos reservados.</p>
+          </div>
+          <br>
+
+     </footer>
+
+     <!---------------------------------------------------------------------------------------------------------------->
+
+     <script src="scripts.js"></script>
+
+</body>
+</html>
